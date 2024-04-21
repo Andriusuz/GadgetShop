@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Gadget
+comment0.text=\r\nThe\ class\ Gadget\ a\ superclass\ creating\ an\ object\ \ gadget,\ which\ 4\ attributes\ can\ be\ passed\ to\ the\ subclass\ \r\nMobile\ or\ Mp3\r\nAuthor\ (Andrius\ Uzkuraitis)\r\nVersion\ (03/01/2022)\r\n
+comment1.params=theModel\ thePrice\ theWeight\ theSize
+comment1.target=Gadget(java.lang.String,\ double,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ "Gadget"\r\n\ @theModel\ -\ Model\ of\ the\ gadget(String\ e.g.\ "Sony")\r\n\ @thePrice\ -\ Price\ of\ the\ gadget(double\ e.g.\ 986.32\u00A3)\r\n\ @theWeight\ -\ Weight\ of\ the\ gadget(int\ e.g.\ 86g)\r\n\ @theSize\ -\ Size\ of\ the\ gadget(String\ e.g.\ "71mm\ x\ 137mm\ x\ 9mm")\r\n
+comment2.params=
+comment2.target=java.lang.String\ getModel()
+comment2.text=\r\n\ Accessor\ method\ returning\ the\ model\ of\ the\ gadget\ \r\n\ @return\ model\ of\ the\ gadget\r\n
+comment3.params=
+comment3.target=double\ getPrice()
+comment3.text=\r\n\ Accessor\ method\ returning\ the\ price\ of\ the\ gadget\r\n\ @return\ price\ of\ the\ gadget\r\n
+comment4.params=
+comment4.target=int\ getWeight()
+comment4.text=\r\n\ Accessor\ method\ returning\ the\ weight\ of\ the\ gadget\r\n\ @return\ weight\ of\ the\ gadget\r\n
+comment5.params=
+comment5.target=java.lang.String\ getSize()
+comment5.text=\r\n\ Accessor\ method\ returning\ the\ size\ of\ the\ gadget\r\n\ @return\ size\ of\ the\ gadget\r\n
+comment6.params=
+comment6.target=void\ display()
+comment6.text=\r\n\ a\ display\ method\ outputs\ the\ model,\ price,\ weight,\ size\ \r\n\ @returns\ gadget\ model,\ price,\ weight,\ size\r\n
+numComments=7

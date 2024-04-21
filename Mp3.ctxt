@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Mp3
+comment0.text=\r\n\ The\ class\ Mp3\ is\ the\ subclass\ of\ the\ class\ "Gadget"\r\n\ The\ class\ itself\ has\ two\ atributs\:\ Memory(int)\ ,\ UsedMemory(int)\r\n\ @author\ (Andrius\ Uzkuraitis)\r\n\ @version\ (09/01/2022)\r\n
+comment1.params=theModel\ thePrice\ theWeight\ theSize\ theMemory
+comment1.target=Mp3(java.lang.String,\ double,\ int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ "Mp3"\r\n\ @theModel\ -\ Model\ of\ the\ gadget(String\ e.g.\ "Sony")\r\n\ @thePrice\ -\ Price\ of\ the\ gadget(double\ e.g.\ 986.32\u00A3)\r\n\ @theWeight\ -Weight\ of\ the\ gadget(int\ e.g.\ 86g)\r\n\ @theSize\ -\ Size\ of\ the\ gadget(String\ e.g.\ "71mm\ x\ 137mm\ x\ 9mm")\r\n\ @theMemory\ -\ Memory\ of\ the\ Mp3(int\ 86)\r\n
+comment2.params=
+comment2.target=int\ getMemoryRemaning()
+comment2.text=\r\n\ Accessor\ method\ returning\ the\ remaning\ memory\ of\ mp3\r\n\ @return\ the\ memory\ of\ mp3\r\n
+comment3.params=
+comment3.target=int\ getUsedMemory()
+comment3.text=\r\n\ Accessor\ method\ returning\ the\ used\ memory\ of\ mp3\r\n\ @return\ the\ usedmemory\ of\ mp3\r\n
+comment4.params=MusicFile
+comment4.target=void\ DownloadMusic(int)
+comment4.text=\r\n\ a\ method\ which\ takes\ a\ parameter\ representing\ the\ amount\ of\ memory\ that\ the\ music\ will\ take\ up\ and\r\n\ if\ there\ is\ sufficient\ available\ memory\ on\ the\ mp3\ player,\ decreases\ the\ available\ memory\ accordingly\r\n\ also\ takes\ a\ parameter\ representing\ the\ amount\ of\ memory\ that\ the\ music\ took\ up\ and\ increases\ used\ memory\ of\ the\ MP3\r\n\ otherwise\ the\ message\ is\ displayed\ prompting\ the\ user\ to\ put\ correct\ amount\r\n
+comment5.params=amount
+comment5.target=void\ DeleteMusic(int)
+comment5.text=\r\n\ a\ method\ which\ takes\ a\ parameter\ representing\ the\ amount\ of\ memory\ that\ the\ music\ took\ up\r\n\ decrease\ the\ mp3\ player\ used\ memory\ and\ increases\ the\ available\ memory\ of\ the\ mp3\ player\ accordingly\r\n\ otherwise\ the\ message\ is\ displayed\ prompting\ the\ user\ to\ put\ correct\ amount\u0000\ \r\n
+comment6.params=
+comment6.target=void\ display()
+comment6.text=\r\n\ a\ method\ displaying\ mp3\ details;\r\n\ calls\ on\ the\ display\ method\ in\ superclass\ Gadget\r\n\ a\ display\ method\ outputs\ the\ model,\ price,\ weight,\ size,\ memory\r\n\ @returns\ gadget\ mp3,\ price,\ weight,\ size,\ memory\r\n
+numComments=7

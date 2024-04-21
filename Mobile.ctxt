@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Mobile
+comment0.text=\r\n\ The\ class\ Mobile\ is\ the\ subclass\ of\ the\ class\ "Gadget"\r\n\ The\ class\ itself\ has\ one\ atribut\:\ credit(int)\r\n\ @author\ (Andrius\ Uzkuraitis)\r\n\ @version\ (10/01/2022)\r\n
+comment1.params=theModel\ thePrice\ theWeight\ theSize\ theCredit
+comment1.target=Mobile(java.lang.String,\ double,\ int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ "Mobile"\r\n\ @theModel\ -\ Model\ of\ the\ gadget(String\ e.g.\ "Sony")\r\n\ @thePrice\ -\ Price\ of\ the\ gadget(double\ e.g.\ 986.32\u00A3)\r\n\ @theWeight\ -Weight\ of\ the\ gadget(int\ e.g.\ 86g)\r\n\ @theSize\ -\ Size\ of\ the\ gadget(String\ e.g.\ "71mm\ x\ 137mm\ x\ 9mm")\r\n\ @theCredit\ -\ Credit\ of\ the\ mobile(int\ 89)\ \r\n
+comment2.params=
+comment2.target=int\ getCredit()
+comment2.text=\r\n\ Accessor\ method\ returning\ the\ credit\ remaning\ of\ mobile\r\n\ @return\ the\ credit\ of\ mobile\r\n
+comment3.params=
+comment3.target=int\ getCreditRemaning()
+comment4.params=Amount
+comment4.target=void\ addCredit(int)
+comment4.text=\r\n\ a\ method\ increasing\ the\ mobile\ credit\r\n\ if\ the\ value\ greater\ then\ 0\ it\ will\ be\ added\ to\ the\ remaning\ credit\ \r\n\ if\ the\ value\ is\ 0\ or\ negative\ message\ will\ be\ displayed.\r\n
+comment5.params=Duration\ PhoneNumber
+comment5.target=void\ makeACall(int,\ java.lang.String)
+comment5.text=\r\n\ a\ method\ for\ creating\ a\ phone\ number\ and\ selecting\ duration\ of\ call,\ by\ providing\ the\ number\ of\ minutes.\r\n\ If\ the\ phone\ number\ is\ in\ the\ right\ length\ and\ format\ and\ if\ there\ is\ enough\ credits\ according\ to\ the\ minutes\ duration\ selected\r\n\ than\ the\ display\ message\ appears\ with\ the\ phone\ number\ and\ duration\ of\ the\ call\r\n\ otherwise\ the\ message\ is\ displayed\ prompting\ the\ user\ to\ put\ correct\ details\r\n\ a\ user\ needs\ to\ enter\ 11\ digit\ phone\ number\ and\ the\ right\ amount\ of\ minits\ acording\ to\ the\ credit\r\n\ left\r\n
+comment6.params=
+comment6.target=void\ display()
+comment6.text=\r\n\ a\ method\ displaying\ mobile\ details;\r\n\ calls\ on\ the\ display\ method\ in\ superclass\ Gadget\r\n\ a\ display\ method\ outputs\ the\ model,\ price,\ weight,\ size,\ credit\r\n\ @returns\ monile\ model,\ price,\ weight,\ size,\ credit\r\n
+numComments=7
